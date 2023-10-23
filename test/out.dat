@@ -1,0 +1,19 @@
+Previous instruction at IP = 2048: BRKP
+Mode: KERNEL 	 PID: 1
+Next instruction at IP = 2050, Page No. = 4: MOV R16,28672
+debug> Tick: 		 
+PID: 		1 
+PPID: 		 
+UserID: 		 
+State: 		(RUNNING, )
+Swap Flag: 		 
+Inode Index: 		 
+Input Buffer: 		 
+Mode Flag: 		
+User Area Swap Status: 		 
+User Area Page Number: 		80 
+Kernel Stack Pointer: 		0 
+User Stack Pointer: 		4096 
+PTBR: 		29716 
+PTLR: 		10 
+debug> Killing the machine

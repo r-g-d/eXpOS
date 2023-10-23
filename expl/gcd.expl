@@ -1,0 +1,24 @@
+decl
+    int temp,a,b;
+enddecl
+
+int main()
+{
+begin
+	temp = exposcall ( "Write" , -2, "Enter num1");
+	temp = exposcall ( "Read" , -1, a );
+
+	temp = exposcall ( "Write" , -2, "Enter num2");
+	temp = exposcall ( "Read" , -1, b );
+	
+	while(a!=0)	do
+		temp = a;
+		a = b%a;
+		b = temp;
+	endwhile;
+
+	temp = exposcall ( "Write" , -2, "GCD");
+	temp = exposcall ( "Write" , -2, b);
+    return 0;
+end
+}
